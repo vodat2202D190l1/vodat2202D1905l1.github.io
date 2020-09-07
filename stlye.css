@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background: url("2431765_fresh-morning-background-desktops-wallpapers-nature-wallpaper-images-miscellaneous-768x1366.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;}
+.header h3 {
+	position: absolute;
+	top:40%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: aliceblue;
+	font-size: 4em;
+	font-weight: 800;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.header p{
+	position: absolute;
+	top:50%;
+	left: 5%;
+	transform: translate(-50%,-50%);
+	color: aliceblue;
+	font-size: 20px;
+	text-align: center;
+	width: 600px;
+}
+.header button {
+ margin-top: 35%;
+ margin-left: 11%;
+	width: 300px;
+	height: 50px;
+}
+.wapper{
+  background: white;
+  margin-left: 20%;
+  margin-top: 20%;
+  max-width: 60%;
+  padding: 20px 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.wapper:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid #01D72D;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.juju{
+	margin-top: 25%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	width: 600px;
+	border: 10px #1E6F02;
+}
+.juju:hover{
+	border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid #01D72D ;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+button {
+  border:none;
+  background: green;
+  color: #f0f0f2;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+button:hover {
+  border-right: 2px solid black;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+
+@keyframes example {
+    0%   {border-left: 2px solid #ffffff;}
+    25%  {border-left: 3px solid #ffe6e6;}
+    50%  {border-left: 4px solid #ff8080;}
+    100% {border-left: 5px solid #ff0000;}
+}
+.iconss {
+	font-size: 60px !important;
+	color:#1E6F02;
+	padding-top: 20%;
+
+}
+.iconss:hover{
+	border:none;
+	border-bottom: 2px solid green;
+}
+.ico{
+	background: #EDEDED;
+	margin-top:5%;
+}
+.dad{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: #1E6F02;
+}
+.title{
+	margin-top: 5%;
+    text-align: center;
+	font-size: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#1E6F02
+}
+.hinhanh img{
+	width: 320px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+.hinhanh img:hover{
+	border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid #01D72D ;
+}
+.hinhanh2{
+	margin-top: 2%;
+}
+.hi{
+	margin-top: 6.5%
+}
+.icontt{
+	font-size: 45px !important;
+	color:#F1F1F1;
+	background: green;
+	 border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	padding-top: 8%
+}
+.thongtin h1 {
+	margin-top: 5%;
+	text-align: center;
+	color: green;
+	font-family: 'Oswald', sans-serif;
+}
+.thongtin p{
+	text-align: center;
+	color: green;
+	font-family: 'Oswald', sans-serif;
+}
+.thongtinicon p{
+	text-align: center;
+}
+.hihi{
+	width: 100%;
+    height: 45px;
+    border: 0;
+    color: #000;
+    border-bottom: solid 1px #009800;
+    font-size: 13px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.haha{
+	width: 100%;
+    border: 0;
+    border-bottom: solid 1px #009800;
+    font-size: 13px;
+    padding: 20px 0 0 10px;
+    height: 119px;
+    margin-bottom: 15px;
+    font-family: 'Poppins',#009800;
+}
+.huhu {
+	padding: 10px 50px;
+    font-size: 12px;
+    background: none;
+    border: 2px solid;
+    border-radius: 50px;
+	margin: auto;
+    margin-top: 30px;
+    display: block;   
+}
+.iconcs{
+	color: aliceblue;
+	margin-left: 45px;
+}
+
+.footer{
+	background: darkgreen;
+	margin-top:10%;
+
+}
+#mybtn{
+	display: none;
+	position: fixed;
+	z-index: 99;
+	cursor: pointer;
+	right: 30px;
+	bottom: 20px;
+	boder: none;
+	outline: none;
+	background-color: aquamarine;
+	width: 100px;
+}
+@media (max-width: 375px){
+	
+}
+
+
+.infor{
+	padding-top: 5%;
+	color: green;
+	font-size: 15px
+		
+}
+
